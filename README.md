@@ -22,6 +22,17 @@ tra@thura-pc:~$ pip install -r requirements.txt
 ```{r, engine='bash', count_lines}
 tra@thura-pc:~$ python train_svm.py
 ```
+```
+              precision    recall  f1-score   support
+
+           0       0.94      0.93      0.94       632
+           1       0.91      0.93      0.92       498
+
+    accuracy                           0.93      1130
+   macro avg       0.93      0.93      0.93      1130
+weighted avg       0.93      0.93      0.93      1130
+
+```
 
  ## The sliding windows detection algorithm
  
