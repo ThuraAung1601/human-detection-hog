@@ -63,7 +63,7 @@ Computation of the HOG descriptor requires the following basic configuration par
     Block overlapping
     Normalization parameters
 
-According to (Source : https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf) the recommended values for the HOG parameters are:
+According to the [Source](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf) the recommended values for the HOG parameters are:
 
     1D centered derivative mask [-1, 0, +1]
     Detection window size is 64x128
